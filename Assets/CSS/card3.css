@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background: skyblue;
+    padding-top: 20px;
+}
+.fullCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 260px;
+    background: #fff;
+    border: 3px solid #fff;
+    box-shadow: 2px 2px 2px #000;
+}
+.fullCard>div{
+    width: 200px;
+    height: 256px;
+    margin: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.profileimg{
+    position: relative;
+    width: 70px;
+    border-radius: 100%;
+    background-color: palegreen;
+    margin-top: -40px;
+    padding: 5px;
+}
+.profileimg:hover{
+    background-color: lightslategrey;
+}
+.cardThree>ul{
+    list-style-type: none;
+    float: right;
+}
+.cardThree>ul>li{
+    display: inline-block;
+    padding: 7px;
+    padding-bottom: 5px;
+}
+.cardThree>ul>li:hover{
+    background-color: aqua;
+}
+.cardThree>ul>li>a{
+    color:#fff;
+    text-decoration: none;
+}
+.cardThree>ul>li>a>img{
+    height: 35px;
+    width: 30px;
+}
+.cardThree>p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+}
+.cardThree>center>h2{
+    color: orangered;
+}

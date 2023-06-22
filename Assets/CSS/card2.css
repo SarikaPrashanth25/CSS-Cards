@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background: skyblue;
+}
+.morgan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    box-shadow: #000;
+}
+.cardwrap{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 30px;
+    background: #fff;
+    border-radius: 20px;
+}
+.cardBg{
+    align-items: cover;
+    height: 148px;
+    width: 399px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.profile{
+    width: 100px;
+    border-radius: 100%;
+    margin-top: -50px;
+    box-shadow: 0 0 0 0 palevioletred;
+    transition: box-shadow 2s;
+    background-color: #fff;
+}
+.profile:hover{
+    box-shadow: 0 0 0 5px palevioletred;
+}
+.morgan{
+    text-align: center;
+    padding: 20px;
+}
+.morgan>div>p{
+    padding: 20px;
+}
+.morgan>div>table{
+    padding: 50px;
+}
+.followNum{
+    color: blue;
+    text-align: center;
+}
+button[type="button"]{
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 3px;
+    padding-inline: 20px;
+}
